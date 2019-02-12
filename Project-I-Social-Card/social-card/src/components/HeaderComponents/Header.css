@@ -1,6 +1,7 @@
 /* All styles for your header Components live here */
 header {
   display: flex;
+  margin-right: 15px;
 }
 
 /* Header Image Thumbnail Styles */
