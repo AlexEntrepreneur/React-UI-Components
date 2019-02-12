@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+header {
+  display: flex;
+}
+
+/* Header Image Thumbnail Styles */
+header .card-avatar {
+  flex: none;
+  width: 65px;
+  height: 65px;
+  padding: 10px;
+}
+
+header .card-avatar img {
+  width: 100%;
+  border-radius: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+/* Header Title Styles */
+.header-headline-container h3, .header-headline-container p, .header-headline-container span {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 40px;
+}
+
+.header-headline-container h3 {
+  font-size: 18px;
+}
+
+.header-headline-container p, .header-headline-container span {
+  color: #8895A2;
+}
+
+/* Header Content Styles */
+.card-header-content-body-text {
+  margin-bottom: 20px;
+}

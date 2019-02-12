@@ -1,4 +1,17 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
+/*
+  Write your styles/CSS for App.js here and import into the component that you need
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+* {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.card {
+  max-width: 600px;
+}
